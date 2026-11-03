@@ -1,6 +1,5 @@
 .post-preview + .post-preview { margin-top: 1.8rem; }
-.post-preview-text { grid-template-columns: minmax(0, 1fr); }
-.post-preview-text p { max-width: 66ch; }
+.post-art-square { aspect-ratio: 1; }
 .migrated-post h2 { margin-block: 2rem .8rem; }
 .migrated-post h3 { margin-block: 1.5rem .55rem; }
 .migrated-post li { margin-block: .35rem; }

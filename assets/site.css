@@ -65,6 +65,14 @@ main { padding-block: clamp(3.25rem, 8vw, 6.8rem) 4.5rem; }
 .news-list time, .eyebrow, .note { color: var(--muted); font-size: .88rem; }
 .news-list a { font-weight: 600; }
 .news-list p { color: var(--muted); margin: .15rem 0 0; }
+#more-news { margin-top: 1rem; }
+#more-news summary {
+  width: fit-content;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+#more-news summary:hover { text-decoration: underline; }
 .page-links { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .page-links a { display: flex; justify-content: space-between; gap: 1rem; padding: 1.1rem 1.25rem; border: 1px solid var(--line); border-radius: .45rem; text-decoration: none; }
 .page-links a:hover { background: var(--panel); border-color: var(--accent); }

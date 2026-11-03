@@ -1,16 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <title>Confounding in observational data</title>
+  <desc>A pre-treatment confounder affects both treatment and outcome. Treatment also affects the outcome.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#205b51"/>
+    </marker>
+  </defs>
   <rect width="480" height="300" fill="#eef3ef"/>
+  <g fill="none" stroke="#205b51" stroke-width="2.4" marker-end="url(#arrow)">
+    <path d="M198 130 110 192"/>
+    <path d="M282 130 370 192"/>
+    <path d="M180 221H300"/>
+  </g>
   <g font-family="system-ui,sans-serif" fill="#202724" text-anchor="middle">
-    <text x="240" y="49" font-size="23" font-weight="650">One person, two outcomes</text>
-    <rect x="160" y="82" width="160" height="47" rx="9" fill="#fff" stroke="#68776f" stroke-width="1.5"/>
-    <text x="240" y="111" font-size="17" font-weight="600">Same person</text>
-    <path d="M240 130v20H128v29" fill="none" stroke="#205b51" stroke-width="2.4"/>
-    <path d="M240 150h112v29" fill="none" stroke="#865120" stroke-width="2.4" stroke-dasharray="6 4"/>
-    <rect x="32" y="180" width="192" height="59" rx="9" fill="#dcebe7" stroke="#205b51" stroke-width="1.5"/>
-    <rect x="256" y="180" width="192" height="59" rx="9" fill="#f7eadc" stroke="#865120" stroke-width="1.5" stroke-dasharray="6 4"/>
-    <text x="128" y="215" font-size="17" font-weight="600">With treatment</text>
-    <text x="352" y="215" font-size="17" font-weight="600">Without treatment</text>
-    <text x="128" y="267" font-size="15" fill="#205b51">Observed</text>
-    <text x="352" y="267" font-size="15" fill="#74451c">Counterfactual</text>
+    <text x="240" y="49" font-size="23" font-weight="650">Confounding in observational data</text>
+    <rect x="124" y="78" width="232" height="52" rx="9" fill="#fff" stroke="#68776f" stroke-width="1.5"/>
+    <rect x="40" y="192" width="140" height="58" rx="9" fill="#dcebe7" stroke="#205b51" stroke-width="1.5"/>
+    <rect x="300" y="192" width="140" height="58" rx="9" fill="#dcebe7" stroke="#205b51" stroke-width="1.5"/>
+    <g font-size="17" font-weight="600">
+      <text x="240" y="110">Pre-treatment confounder</text>
+      <text x="110" y="227">Treatment</text>
+      <text x="370" y="227">Outcome</text>
+    </g>
   </g>
 </svg>

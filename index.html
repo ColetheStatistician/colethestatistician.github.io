@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Nolan Cole, Biostatistics PhD student at the University of Washington.">
   <link rel="canonical" href="https://colethestatistician.github.io/">
-  <link rel="stylesheet" href="assets/site.css?v=headshot">
+  <link rel="stylesheet" href="assets/site.css?v=more-news">
+  <script src="assets/news.js" defer></script>
   <title>Nolan Cole · Biostatistics</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
 
     <section class="home-section" aria-labelledby="news-heading">
       <h2 id="news-heading">News</h2>
-      <ul class="news-list">
+      <ul class="news-list" id="recent-news">
         <li>
           <time datetime="2026-10-26">Oct 26, 2026</time>
           <div><a href="https://www.nature.com/articles/s41588-026-02827-0">Quantification method affects replicability of eQTL analysis, colocalization and TWAS</a><p>I co-authored this paper, now published in <em>Nature Genetics</em>.</p></div>
@@ -47,6 +48,10 @@
           <div><a href="https://sci-info.org/abstract-search/?abst_id=20727">Quantifying Treatment Effect Heterogeneity via the CATE Distribution Function</a><p>I presented this poster at the American Causal Inference Conference (ACIC) in Salt Lake City.</p></div>
         </li>
       </ul>
+      <details id="more-news" hidden>
+        <summary>More news</summary>
+        <ul class="news-list"></ul>
+      </details>
     </section>
 
     <section class="home-section" aria-label="Explore the site">

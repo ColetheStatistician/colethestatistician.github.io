@@ -41,6 +41,23 @@ main { padding-block: clamp(3.25rem, 8vw, 6.8rem) 4.5rem; }
 .role { margin: .85rem 0 0; font-size: clamp(1.15rem, 3vw, 1.4rem); font-weight: 550; }
 .affiliation { color: var(--muted); margin: .12rem 0 0; }
 .bio { max-width: 69ch; margin-top: clamp(1.75rem, 5vw, 2.6rem); }
+.intro-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  margin-top: clamp(1.75rem, 5vw, 2.6rem);
+}
+.intro-body .bio { margin-top: 0; }
+.intro-headshot {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  width: clamp(9rem, 20vw, 13.5rem);
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+}
 .bio p:last-child, .research-copy p:last-child { margin-bottom: 0; }
 .home-section { margin-top: 2.9rem; border-top: 1px solid var(--line); padding-top: 1.45rem; }
 .news-list { list-style: none; padding: 0; margin: 1.05rem 0 0; }
@@ -90,6 +107,8 @@ button { font: inherit; }
 
 @media (max-width: 42rem) {
   .wrap { width: calc(100% - 2.25rem); }
+  .intro-body { grid-template-columns: 1fr; }
+  .intro-headshot { grid-column: 1; }
   .research-row, .post-preview { grid-template-columns: 1fr; align-items: start; }
   .research-copy { grid-row: 1; }
   .research-figure, .post-art { width: min(100%, 27rem); }

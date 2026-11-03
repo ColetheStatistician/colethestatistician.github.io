@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#eef3ef"/>
+  <g font-family="system-ui,sans-serif" fill="#202724" text-anchor="middle">
+    <text x="240" y="46" font-size="23" font-weight="650">Cross-fitting</text>
+    <text x="240" y="72" font-size="15" fill="#4c5b55">Split the data into folds</text>
+    <rect x="39" y="99" width="162" height="53" rx="9" fill="#dcebe7" stroke="#205b51" stroke-width="1.5"/>
+    <rect x="279" y="99" width="162" height="53" rx="9" fill="#f7eadc" stroke="#865120" stroke-width="1.5"/>
+    <text x="120" y="132" font-size="18" font-weight="600">Fold A</text>
+    <text x="360" y="132" font-size="18" font-weight="600">Fold B</text>
+    <path d="M120 153v14c0 27 240 27 240 51" fill="none" stroke="#205b51" stroke-width="2.6"/>
+    <path d="M360 153v14c0 27-240 27-240 51" fill="none" stroke="#865120" stroke-width="2.6" stroke-dasharray="6 4"/>
+    <path d="m355 213 5 7 5-7" fill="none" stroke="#205b51" stroke-width="2.6"/>
+    <path d="m115 213 5 7 5-7" fill="none" stroke="#865120" stroke-width="2.6"/>
+    <text x="120" y="247" font-size="16" font-weight="600">Fit on B, use on A</text>
+    <text x="360" y="247" font-size="16" font-weight="600">Fit on A, use on B</text>
+    <text x="240" y="279" font-size="15" fill="#4c5b55">Combine the held-out results</text>
+  </g>
+</svg>

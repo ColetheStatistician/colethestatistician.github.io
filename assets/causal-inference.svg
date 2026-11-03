@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#eef3ef"/>
+  <g font-family="system-ui,sans-serif" fill="#202724" text-anchor="middle">
+    <text x="240" y="49" font-size="23" font-weight="650">One person, two outcomes</text>
+    <rect x="160" y="82" width="160" height="47" rx="9" fill="#fff" stroke="#68776f" stroke-width="1.5"/>
+    <text x="240" y="111" font-size="17" font-weight="600">Same person</text>
+    <path d="M240 130v20H128v29" fill="none" stroke="#205b51" stroke-width="2.4"/>
+    <path d="M240 150h112v29" fill="none" stroke="#865120" stroke-width="2.4" stroke-dasharray="6 4"/>
+    <rect x="32" y="180" width="192" height="59" rx="9" fill="#dcebe7" stroke="#205b51" stroke-width="1.5"/>
+    <rect x="256" y="180" width="192" height="59" rx="9" fill="#f7eadc" stroke="#865120" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="128" y="215" font-size="17" font-weight="600">With treatment</text>
+    <text x="352" y="215" font-size="17" font-weight="600">Without treatment</text>
+    <text x="128" y="267" font-size="15" fill="#205b51">Observed</text>
+    <text x="352" y="267" font-size="15" fill="#74451c">Counterfactual</text>
+  </g>
+</svg>

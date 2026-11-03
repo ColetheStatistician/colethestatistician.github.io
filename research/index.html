@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research interests in debiased machine learning, causal inference, and shape-constrained inference.">
+  <link rel="canonical" href="https://colethestatistician.github.io/research/">
+  <link rel="stylesheet" href="../assets/site.css">
+  <title>Research · Nolan Cole</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="../index.html">Nolan Cole<span aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../research/index.html" aria-current="page">Research</a>
+        <a href="../blog/index.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+<header class="page-heading"><h1>Research</h1></header>
+
+    <section class="research-row" aria-labelledby="dml">
+      <figure class="research-figure">
+        <img src="../assets/debiased-machine-learning.svg" width="480" height="300" alt="Diagram showing data split into folds, with models fit on one fold and used to construct an estimate on the other.">
+        <figcaption>Cross-fitting uses separate observations for model fitting and evaluation.</figcaption>
+      </figure>
+      <div class="research-copy">
+        <h2 id="dml">Debiased machine learning</h2>
+        <p>How can we use flexible prediction models and still quantify uncertainty about the quantity we care about? Machine learning can estimate complex relationships in data, but plugging those predictions into a statistical estimate can carry prediction errors into the final answer. I’m interested in methods that reduce the impact of those errors so that we can use flexible models and still draw reliable conclusions.</p>
+      </div>
+    </section>
+
+    <section class="research-row" aria-labelledby="causal">
+      <figure class="research-figure">
+        <img src="../assets/causal-inference.svg" width="480" height="300" alt="Two possible outcomes for the same person, one under treatment and one without treatment. Only one outcome is observed.">
+        <figcaption>For each person, we observe the outcome under the treatment they actually received.</figcaption>
+      </figure>
+      <div class="research-copy">
+        <h2 id="causal">Causal inference</h2>
+        <p>What would have happened if people had received a different treatment? In observational data, people who receive different treatments often differ in ways that also affect their outcomes. I’m interested in making clear what assumptions let us learn about treatment effects from these data and how much uncertainty remains.</p>
+      </div>
+    </section>
+
+    <section class="research-row" aria-labelledby="shape">
+      <figure class="research-figure gcm-figure">
+        <img id="gcm-image" src="../assets/gcm-still.png" width="910" height="585" alt="A step function and its greatest convex minorant, the largest convex function that lies below it.">
+        <figcaption>Constructing the greatest convex minorant. <button id="gcm-toggle" type="button" hidden>Play animation</button> <noscript><a href="../assets/gcm_ecdf.gif">Open animation</a></noscript></figcaption>
+      </figure>
+      <div class="research-copy">
+        <h2 id="shape">Shape-constrained inference</h2>
+        <p>What can we learn when we know the shape of a relationship? Some functions must be increasing or convex by definition. Using that structure can help us estimate them without specifying a particular formula. I’m interested in how shape constraints change the behavior of estimators and how to quantify uncertainty about the fitted functions.</p>
+      </div>
+    </section>
+    <script src="../assets/research.js" defer></script>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span>Nolan Cole</span><span>University of Washington · Biostatistics</span></div>
+  </footer>
+</body>
+</html>

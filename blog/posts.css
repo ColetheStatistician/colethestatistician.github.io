@@ -1,0 +1,18 @@
+.post-preview + .post-preview { margin-top: 1.8rem; }
+.post-preview-text { grid-template-columns: minmax(0, 1fr); }
+.post-preview-text p { max-width: 66ch; }
+.migrated-post h2 { margin-block: 2rem .8rem; }
+.migrated-post h3 { margin-block: 1.5rem .55rem; }
+.migrated-post li { margin-block: .35rem; }
+.migrated-post figure { margin: 1.35rem 0 1.75rem; }
+.migrated-post img { display: block; max-width: 100%; height: auto; }
+.migrated-post blockquote {
+  margin: 1.15rem 0;
+  padding: .65rem 1rem;
+  border-inline-start: .2rem solid var(--accent);
+  background: var(--panel);
+}
+.migrated-post blockquote p:last-child { margin-bottom: 0; }
+.post-contents { margin-block: 1.4rem; }
+.post-contents summary { cursor: pointer; }
+.post-source { margin-top: 2rem; font-size: .88rem; }
